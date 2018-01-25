@@ -7,7 +7,7 @@ module.exports = {
 
     scripts: {
         files: [
-            'src/js/*.js'
+            'src/js/*.js',
         ],
         tasks: [
             'jshint',
@@ -26,10 +26,10 @@ module.exports = {
 
     pug: {
         files: [
-            'views/*.pug', 'src/html/*.pug'
+            'views/*.pug'
         ],
         tasks: [
             'pug:prod'
         ]
     },
-}; 
+};
